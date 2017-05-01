@@ -25,7 +25,6 @@ title:  "Phoebe France | Community"
 </p>
 -->
 
-
 <!--
 I could either have a list like this, and then it's like: hey, here are all my friends.  Or I could have some kind of feed, or both?
 -->
@@ -37,7 +36,6 @@ I could either have a list like this, and then it's like: hey, here are all my f
 
 <h2>People and Organizations</h2>
 -->
-
 
 <p><a href="http://alexandriaarchive.org/">Alexandria Archive Institute</a></p>
 <p><a href="http://alisonincambodia.wordpress.com/">Alison in Cambodia</a></p>
@@ -72,18 +70,9 @@ I could either have a list like this, and then it's like: hey, here are all my f
 <p><a href="http://www.columbia.edu/cu/archaeology/conference/tag/">Theoretical Archaeology Group (TAG)</a></p>
 <p><a href="http://unthinkingly.com/">Unthinkingly</a></p>
 
-
-
-
-
-
-
-
 <!-- <p><a href="linkhere.net">National Museums in Cambodia?</a></p> -->
 
 <!-- <p><a href="linkhere.net">Libraries?</a></p> -->
-
-
 
 <!-- <p><a href="http://www.unesco.org/new/en/phnompenh">UNESCO, Phnom Penh</a></p> -->
 
@@ -96,5 +85,3 @@ I could either have a list like this, and then it's like: hey, here are all my f
 		</div><!-- end content -->
 	</div><!-- end wrapper -->
 </body>
-
-
