@@ -1,18 +1,15 @@
-<?php include "_includes/header.inc.php"; ?>
-
-
+---
+layout: page
+title:  "Phoebe France | Academics"
+---
 
 <body id="body_academics"> 
 	
-		<?php include "_includes/nav1.inc.php"; ?>
+		{% include nav1.html %}
 	
 	<div id="wrapper"> 
 
-		<?php include "_includes/nav2.inc.php"; ?>
-
-
-
-
+		{% include nav2.html %}
 
 		<div id="content">
 			<div id="content_inner">
@@ -29,10 +26,6 @@
 
 			<h2>Classes</h2>
 
-
-
-
-						
 			</div><!-- end content_inner -->
 		</div><!-- end content -->
 	</div><!-- end wrapper -->

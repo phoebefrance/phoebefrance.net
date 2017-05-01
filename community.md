@@ -1,31 +1,27 @@
-<?php include "_includes/header.inc.php"; ?>
-
-
-
+---
+layout: page
+title:  "Phoebe France | Community"
+---
 <body id="body_community"> 
 
-		<?php include "_includes/nav1.inc.php"; ?>
+		{% include nav1.html %}
 		
 	<div id="wrapper"> 
 	
-		<?php include "_includes/nav2.inc.php"; ?>
+		{% include nav2.html %}
 	
-
-
-
-
 		<div id="content">
 			<div id="content_inner">
 	
 <!-- 			<h2 id="first">Community</h2> -->
 
-				<!--
+<!--
 <p>Nam quis augue est, quis vestibulum nunc. Aliquam erat volutpat. Vestibulum porta condimentum orci sodales mollis. Etiam pulvinar mauris nec libero commodo volutpat. Maecenas faucibus, nisl sit amet tempus varius, massa dolor porttitor nisi, quis ultrices erat tortor ut nisi. Morbi viverra lectus sit amet mi interdum auctor. In hac habitasse platea dictumst. Integer nec purus est. Proin bibendum mauris ac leo ultricies porta. Maecenas dapibus tincidunt fermentum. Donec nibh diam, bibendum at rhoncus sit amet, consequat sit amet urna.</p>
 
 
-			<h2>Community Paragraph 2</h2>
+<h2>Community Paragraph 2</h2>
 
-					<p>Donec sem mi, condimentum in tempor a, fermentum non nibh. Pellentesque tempus mauris non turpis pellentesque lacinia. Etiam laoreet volutpat dolor at convallis. Nam id nulla at orci volutpat venenatis hendrerit non nisi. Etiam sit amet enim at sem laoreet ultrices tincidunt eget ligula. Etiam cursus eros quis arcu interdum pharetra. Nulla facilisi. Fusce enim sem, dictum a mattis a, aliquet euismod odio. Aliquam rutrum tristique lectus id tincidunt. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam euismod suscipit tellus aliquet pulvinar. Donec sem mi, condimentum in tempor a, fermentum non nibh. Pellentesque tempus mauris non turpis pellentesque lacinia. Etiam laoreet volutpat dolor at convallis. Nam id nulla at orci volutpat venenatis hendrerit non nisi. Etiam sit amet enim at sem laoreet ultrices tincidunt eget ligula. Etiam cursus eros quis arcu interdum pharetra. Nulla facilisi. Fusce enim sem, dictum a mattis a, aliquet euismod odio. Aliquam rutrum tristique lectus id tincidunt. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam euismod suscipit tellus aliquet pulvinar.
+	<p>Donec sem mi, condimentum in tempor a, fermentum non nibh. Pellentesque tempus mauris non turpis pellentesque lacinia. Etiam laoreet volutpat dolor at convallis. Nam id nulla at orci volutpat venenatis hendrerit non nisi. Etiam sit amet enim at sem laoreet ultrices tincidunt eget ligula. Etiam cursus eros quis arcu interdum pharetra. Nulla facilisi. Fusce enim sem, dictum a mattis a, aliquet euismod odio. Aliquam rutrum tristique lectus id tincidunt. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam euismod suscipit tellus aliquet pulvinar. Donec sem mi, condimentum in tempor a, fermentum non nibh. Pellentesque tempus mauris non turpis pellentesque lacinia. Etiam laoreet volutpat dolor at convallis. Nam id nulla at orci volutpat venenatis hendrerit non nisi. Etiam sit amet enim at sem laoreet ultrices tincidunt eget ligula. Etiam cursus eros quis arcu interdum pharetra. Nulla facilisi. Fusce enim sem, dictum a mattis a, aliquet euismod odio. Aliquam rutrum tristique lectus id tincidunt. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam euismod suscipit tellus aliquet pulvinar.
 </p>
 -->
 
