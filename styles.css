@@ -1,0 +1,254 @@
+/* Phoebe France & Ph Labs styles -- from AAI homepage styles */
+
+
+#body_about, #body_academics, #body_community {
+	font-family: Futura, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #000;
+	background-color: #fff;
+	}
+
+#phlabsbody_about, #phlabsbody_projects, #phlabsbody_community {
+	font-family: Futura, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #fff;
+	background-color: #333333;
+	}
+
+#wrapper {
+	max-width: 1000px;
+	min-width: 700px;
+	float: left;
+/* 	background-color: blue; */
+	}
+
+
+
+/* nav1 */
+
+#nav1_inner {
+	padding: 50px 0 0 100px;
+	border-bottom: 3px solid #ccc;
+	height: 50px; /* <--------- must match the "line-height" of the anchors below */
+	}
+
+#phlabsnav1_inner {
+	padding: 50px 0 0 100px;
+	border-bottom: 3px solid #fff;
+	height: 50px; /* <--------- must match the "line-height" of the anchors below */
+	}
+
+#nav1 ul, #phlabsnav1 ul {
+	margin: 0;
+	padding: 0;
+	}
+
+#nav1 li, #phlabsnav1 li {
+	font-family: Futura, Helvetica, sans-serif;
+	font-size: 24px;
+	display: inline;
+	margin: 0;
+	padding: 0;
+	}
+
+#nav1 a, #nav1 a:link, #nav1 a:visited,
+#phlabsnav1 a, #phlabsnav1 a:link, #phlabsnav1 a:visited {
+	width: 200px;
+	line-height: 50px;  /* <--------- must match "height" of parent */
+	display: block;
+	float: left;
+	text-align: center; 
+	text-decoration: none;
+	margin: 0;
+	}
+
+#nav1 a, #nav1 a:link, #nav1 a:visited
+{color: #000;}
+#phlabsnav1 a, #phlabsnav1 a:link, #phlabsnav1 a:visited
+{color: #fff;}
+
+/* controls the color of the hover of Phoebe France tab on each page of Phoebe France*/
+#nav1 a:hover,  #nav1 a:visited:hover, #body_about #li_phoebefrance a:hover, #body_academics #li_phoebefrance a:hover, #body_community #li_phoebefrance a:hover
+{color: #f60;} /* orange */
+/* controls the color of the hover of Phoebe France tab on each page of Ph Labs */
+#phlabsnav1 a:hover,  #phlabsnav1 a:visited:hover, #phlabsbody_about #li_phoebefrance a:hover, #phlabsbody_projects #li_phoebefrance a:hover, #phlabsbody_community #li_phoebefrance a:hover
+{color: #c0c;} /* fushia */
+/* controls the gray hover in the top nav */
+#phlabsbody_about #li_phlabs a:hover, #phlabsbody_projects #li_phlabs a:hover, #phlabsbody_community #li_phlabs a:hover   
+	{
+	color: #000;
+	border-bottom: 1px solid #000;
+	}
+
+
+/* controls the color of the text and background block */
+#body_about #li_phoebefrance a, #body_academics #li_phoebefrance a, #body_community #li_phoebefrance a 
+	{
+	color: #000;
+	background-color: #ccc;
+	}
+/* makes Phoebe France tab text white on Ph Labs pages */
+#phlabsbody_about #li_phoebefrance a, #phlabsbody_projects #li_phoebefrance a, #phlabsbody_community #li_phoebefrance a  
+	{
+/* 	color: #fff; */
+	color: #000;
+/* 	background-color: #333; */
+	background-color: #ccc;
+	}
+
+
+/* N/A - makes Ph Labs tab text fushia with white background on Ph Labs pages */
+#phlabsbody_about #li_phlabs a, #phlabsbody_projects #li_phlabs a, #phlabsbody_community #li_phlabs a  
+	{
+	color: #c0c;
+	background-color: #fff;
+	}
+
+
+
+
+/* nav2 */
+
+/*
+.pdf {
+	background-image: url(_images/pdf16x16px.gif);
+	background-repeat: no-repeat;
+	background-position: right;
+	display: block;
+	width: 25%;
+	}
+*/
+
+/* makes PDF next to CV disappear when not hovered */
+#li_cv a span {
+/* 	border: 1px solid red; */
+/* 	color: #fff; */
+	display: none;
+	}
+
+/* makes PDF next to CV appear gray upon hovering */
+#li_cv a:hover span {
+/* 	border: 1px solid red; */
+	color: #ccc;
+	display: inline;
+	}
+
+
+#nav2, #phlabsnav2 {
+	padding: 100px 0 0 100px;
+	width: 200px;
+	clear: both;
+	float: left;
+/* 	background-color: fuchsia; */
+	}
+
+#nav2 ul, #phlabsnav2 ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	}
+
+#nav2 li, #phlabsnav2 li {
+	margin: 0;
+	padding: 9px 0;
+	font-family: Futura, Helvetica, sans-serif;
+	font-size: 20px;
+	}
+
+#nav2 a, #nav2 a:link, #nav2 a:visited {
+	color: #000; 
+	text-decoration: none;
+	}
+#phlabsnav2 a, #phlabsnav2 a:link, #phlabsnav2 a:visited {
+	color: #fff; 
+	text-decoration: none;
+	}
+
+#nav2 a:hover,  #nav2 a:visited:hover 
+{color: #f60;}
+#phlabsnav2 a:hover,  #phlabsnav2 a:visited:hover 
+{color: #c0c;}
+
+/* lists not done - need subpages */
+#body_about #li_about a, #body_academics #li_academics a, #body_community #li_community a  
+{color: #f60;}
+#phlabsbody_about #li_about a, #phlabsbody_projects #li_projects a, #phlabsbody_community #li_community a
+{color: #c0c;}
+
+
+
+
+
+/* Page Content */
+
+#content {
+	margin: 0;
+	padding: 100px 0 200px 300px;
+/* 	background-color: aqua; */
+	}
+
+#content img {
+	float: left;
+	margin: 0;
+	padding: 0 25px 15px 0;
+/* 	background-color: blue; */
+	}
+
+h2#first {
+	padding: 0 0 10px 0; 	
+	}
+
+h2 {
+	font-family: Futura, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: 300;
+	margin: 0;
+	padding: 40px 0 10px 0; 
+	}
+
+h2 {
+	color: #000;
+	}
+
+h2.phlabs {
+	color: #fff;
+	}
+
+#content p {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, sans-serif;
+	font-size: 15px;
+/* 	letter-spacing: 1px; */
+	line-height: 1.3em;
+	font-weight: 300;
+	}
+
+#content p + p {
+	margin: 0;
+	padding: 15px 0 0 0;
+	}
+
+#content span p {
+	padding: 100px 0 0 5px; /* adding bottom padding will add onto the bottom padding for #content above */
+	font-family: Futura, Helvetica, sans-serif;
+	}
+
+#content a {
+	color: #f60;
+	text-decoration: none;
+	}
+
+#content span.phlabs a {
+	color: #c0c;
+	text-decoration: none;
+	}
+/* span.phlabs could potentially be used to turn anything (from orange to) pink */
+
+
+
+
+
+
+
+
